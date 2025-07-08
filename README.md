@@ -27,3 +27,10 @@ A chatbot capable of answering user queries from uploaded PDFs, DOCX, PPTX, CSV,
 ---
 
 ## 📂 Project Structure
+# ⚡ Setup Instructions
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/rak-shi/Agentic-RAG-Chatbot-for-Multi-Format-Document-QA-using-MCP.git
+cd agentic-rag-chatbot
