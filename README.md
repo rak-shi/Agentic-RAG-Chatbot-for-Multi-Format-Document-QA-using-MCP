@@ -24,6 +24,30 @@ A chatbot capable of answering user queries from uploaded PDFs, DOCX, PPTX, CSV,
 - PyMuPDF, python-docx, python-pptx, pandas (parsing)
 - Google Colab / local Python
 
----
+## 🚀 Usage
+
+✅ **On Google Colab**:
+- Open `app.ipynb`
+- Upload your documents (PDF, DOCX, PPTX, CSV, TXT)
+- Enter your questions
+- View GPT-based answers with retrieved context
+
+✅ **Locally (optional):**
+If you prepare `app.py`, run:
+```bash
+python app.py
+```
+It will launch a **Gradio UI** in your browser.
+## 🧩 Challenges Faced
+
+- Managing consistent chunking for diverse document formats.
+- Preserving context relevance during retrieval while respecting GPT token limits.
+- Building a lightweight UI that integrates cleanly with Colab for easy evaluation.
+## 🚀 Future Improvements
+
+- Add multi-turn conversational memory.
+- REST API endpoints for integration.
+- Highlight source snippets in GPT answers.
+- Offline embeddings generation for reduced API costs.
 
 
